@@ -17,6 +17,7 @@
 		2251AD1C20EA24E70041582C /* JPEG.m in Sources */ = {isa = PBXBuildFile; fileRef = 2251AD1B20EA24E70041582C /* JPEG.m */; };
 		2251AD1F20EA24F40041582C /* QuickTimeMov.m in Sources */ = {isa = PBXBuildFile; fileRef = 2251AD1E20EA24F40041582C /* QuickTimeMov.m */; };
 		2251AD2A20EB7EA10041582C /* PhotosUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2251AD2920EB7EA10041582C /* PhotosUI.framework */; };
+		22B7385D20EDC3700076E95F /* MediaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22B7385C20EDC3700076E95F /* MediaViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,8 @@
 		2251AD1D20EA24F40041582C /* QuickTimeMov.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QuickTimeMov.h; sourceTree = "<group>"; };
 		2251AD1E20EA24F40041582C /* QuickTimeMov.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QuickTimeMov.m; sourceTree = "<group>"; };
 		2251AD2920EB7EA10041582C /* PhotosUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PhotosUI.framework; path = System/Library/Frameworks/PhotosUI.framework; sourceTree = SDKROOT; };
+		22B7385B20EDC3700076E95F /* MediaViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MediaViewController.h; sourceTree = "<group>"; };
+		22B7385C20EDC3700076E95F /* MediaViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MediaViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +77,8 @@
 				2251ACE720EA1C3E0041582C /* AppDelegate.m */,
 				2251ACE920EA1C3E0041582C /* ViewController.h */,
 				2251ACEA20EA1C3E0041582C /* ViewController.m */,
+				22B7385B20EDC3700076E95F /* MediaViewController.h */,
+				22B7385C20EDC3700076E95F /* MediaViewController.m */,
 				2251AD1A20EA24E70041582C /* JPEG.h */,
 				2251AD1B20EA24E70041582C /* JPEG.m */,
 				2251AD1D20EA24F40041582C /* QuickTimeMov.h */,
@@ -168,6 +173,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2251ACEB20EA1C3E0041582C /* ViewController.m in Sources */,
+				22B7385D20EDC3700076E95F /* MediaViewController.m in Sources */,
 				2251AD1F20EA24F40041582C /* QuickTimeMov.m in Sources */,
 				2251ACF620EA1C3F0041582C /* main.m in Sources */,
 				2251ACE820EA1C3E0041582C /* AppDelegate.m in Sources */,
